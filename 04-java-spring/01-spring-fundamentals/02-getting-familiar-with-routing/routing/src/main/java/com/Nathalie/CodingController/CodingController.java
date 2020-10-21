@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CodingController {
 
 @RequestMapping(value = "/coding", method = RequestMethod.GET)
-	public String helloCD() {
+	public String hello() {
 		return "Hello Coding Dojo!";
 	}
 
