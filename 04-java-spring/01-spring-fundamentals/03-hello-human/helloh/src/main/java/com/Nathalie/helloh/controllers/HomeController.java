@@ -14,9 +14,9 @@ public class HomeController {
 	//	return "Welcome to Spring Boot";
 			return "helloh.jsp";
 	}
-	@RequestMapping(value = "/{fname}", method = RequestMethod.GET)
-	public String Hello(@PathVariable("fname")String fname, Model viewModel) {
-	viewModel.addAttribute("first name", fname);
+	@RequestMapping(value = "/{firstname}", method = RequestMethod.GET)
+	public String Hello(@PathVariable("firstname")String firstname, Model viewModel) {
+	viewModel.addAttribute("first name", firstname);
 	return "Helloname.jsp";
 	}
 }
