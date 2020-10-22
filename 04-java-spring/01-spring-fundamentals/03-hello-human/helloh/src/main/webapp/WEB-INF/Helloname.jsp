@@ -5,10 +5,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Name</title>
 </head>
 <body>
-		<h1>Hello ${firstname}</h1>
-<p>Welcome to SpringBoot!</p>
+	<h1>Hello ${firstname}</h1>
+	<p>Welcome to SpringBoot!</p>
 </body>
 </html>

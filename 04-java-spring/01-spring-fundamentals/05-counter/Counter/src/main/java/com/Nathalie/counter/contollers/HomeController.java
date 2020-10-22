@@ -39,7 +39,7 @@ public class HomeController {
 		int currCount = getSessionCount(s);
 		currCount += t;
 		setSessionCount(s, currCount);
-		return "index.jsp";
+		return "main.jsp";
 	}
 	@RequestMapping("/reset")
 	public String Reset(HttpSession s) {
