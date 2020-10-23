@@ -1,10 +1,10 @@
-package com.ninjaGold.matthew;
+package com.Nathalie.ninjagold;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NinjaGoldApplicationTests {
+class GoldNinjaApplicationTests {
 
 	@Test
 	void contextLoads() {
